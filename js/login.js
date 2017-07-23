@@ -106,7 +106,8 @@ $(function() {
 				type: "POST",
 				data: user,
 				success: function(result) {
-					alert(result);
+					alert("User has been create!")
+					//alert(result);
 					console.log(result);
 					if (result.status == 200) {
 						console.log("hope can see here");
