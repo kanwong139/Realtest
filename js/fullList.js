@@ -90,6 +90,8 @@
           }
 
         })
+      }else {
+        alert("Please login to modify your favourite list!")
       }
     }
 

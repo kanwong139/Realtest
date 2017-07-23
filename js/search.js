@@ -54,8 +54,7 @@ function showSearchResult() {
     //console.log(articleArray)
     for (var i = 0; i < articleArray.length; i++) {
       console.log(articleArray[i]);
-      console.log(articleArray[i + i]);
-
+      console.log(articleArray[i + 1]);
       tempstring += '<div class="col-md-10 blogShort"><h1>' + articleArray[i] + '</h1>'
       tempstring += '<article><p>' + articleArray[(i + 1)] + '</p></article>'
       tempstring += ' <a class="btn btn-blog pull-right marginBottom10" href="http://myweb-chunkan529713586.codeanyapp.com:5000/list.html">READ MORE</a></div>'
